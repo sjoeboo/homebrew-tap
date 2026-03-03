@@ -3,7 +3,7 @@ cask "hangar" do
   name "hangar"
   desc "Terminal session manager for AI coding agents"
   homepage "https://github.com/sjoeboo/hangar"
-  version "1.2.2"
+  version "2.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "hangar" do
   on_macos do
     on_intel do
       url "https://github.com/sjoeboo/hangar/releases/download/v#{version}/hangar_#{version}_darwin_amd64.tar.gz"
-      sha256 "576f80ac23142a7a9dada4e7c9153a9b469ae6ecc7b237e749735dc34c6c4c8c"
+      sha256 "e63c9171e03bfef8113991ae679f06a85d5fdb4fdb55b853b3913fd5af720e8b"
     end
     on_arm do
       url "https://github.com/sjoeboo/hangar/releases/download/v#{version}/hangar_#{version}_darwin_arm64.tar.gz"
-      sha256 "f4f6b5a4f6fbbffb01c5cddc44ff521b58c1993bc327b5af15e5001a50222c0f"
+      sha256 "f79138387609ce7e9cebbe0b4f322d67caa236f39550638713385de90e3fd2d2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sjoeboo/hangar/releases/download/v#{version}/hangar_#{version}_linux_amd64.tar.gz"
-      sha256 "0b7a6f56a39f832a160623ca70bd2ba4008b27eb1300d73f2dc391e99180dd57"
+      sha256 "86686b389b333417c7bebcebf673b3fc2bbb6af9ced3a3d457095a69b7ab4396"
     end
     on_arm do
       url "https://github.com/sjoeboo/hangar/releases/download/v#{version}/hangar_#{version}_linux_arm64.tar.gz"
-      sha256 "076a86039f6196e735949e8125c7dee8c4078a791de9d05d5c282b30ebac0af3"
+      sha256 "a98c68c237aeb4d000152e9f55c1204d10e55efb4f7561b68bdbfbf6f4c12cd0"
     end
   end
 
